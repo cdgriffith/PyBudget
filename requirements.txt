@@ -1,0 +1,6 @@
+sqlalchemy
+reusables
+pyyaml
+bottle-sqlalchemy
+pillow
+cherrypy
