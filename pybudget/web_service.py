@@ -7,10 +7,10 @@ import datetime
 import bottle
 from bottle.ext import sqlalchemy
 from sqlalchemy import create_engine
-from sqlalchemy.orm.exc import NoResultFound
+
 
 from pybudget.api import app as api_app
-from pybudget.database import Base
+from pybudget.lib.database import Base
 
 logger = logging.getLogger('PyBudget')
 
